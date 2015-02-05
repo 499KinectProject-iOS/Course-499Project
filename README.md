@@ -2,7 +2,7 @@ iOS Application
 =================================================
 Northwestern University - IEMS 499 Kinect Project
 
-Update:
+#Update:
 
 2015.2.4
 - Local movie player available now.
