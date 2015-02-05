@@ -1,6 +1,6 @@
 iOS Application
 =================================================
-Northwestern University - IEMS 499 Kinect Project
+Northwestern University - 2015 Winter IEMS 499 Kinect Project
 
 #Update:
 
