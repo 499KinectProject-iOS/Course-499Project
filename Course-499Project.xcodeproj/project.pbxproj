@@ -13,6 +13,8 @@
 		EA5E099F1A82F6B7002A1147 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA5E099E1A82F6B7002A1147 /* Images.xcassets */; };
 		EA5E09A21A82F6B7002A1147 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA5E09A01A82F6B7002A1147 /* LaunchScreen.xib */; };
 		EA5E09AE1A82F6B7002A1147 /* Course_499ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5E09AD1A82F6B7002A1147 /* Course_499ProjectTests.swift */; };
+		EA726B901A955A6D001CD639 /* SwiftHTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA726B891A9559AD001CD639 /* SwiftHTTP.framework */; };
+		EA726B911A955A6D001CD639 /* SwiftHTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA726B8D1A9559AD001CD639 /* SwiftHTTP.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,6 +24,34 @@
 			proxyType = 1;
 			remoteGlobalIDString = EA5E09911A82F6B7002A1147;
 			remoteInfo = "Course-499Project";
+		};
+		EA726B881A9559AD001CD639 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA726B811A9559AD001CD639 /* SwiftHTTP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6BFD901619C8D8B500DD99B6;
+			remoteInfo = SwiftHTTP;
+		};
+		EA726B8A1A9559AD001CD639 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA726B811A9559AD001CD639 /* SwiftHTTP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6BFD902119C8D8B500DD99B6;
+			remoteInfo = SwiftHTTPTests;
+		};
+		EA726B8C1A9559AD001CD639 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA726B811A9559AD001CD639 /* SwiftHTTP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D958025919E6EEEB003C8218;
+			remoteInfo = SwiftHTTPOSX;
+		};
+		EA726B8E1A9559AD001CD639 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA726B811A9559AD001CD639 /* SwiftHTTP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D958026319E6EEEB003C8218;
+			remoteInfo = SwiftHTTPOSXTests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -36,6 +66,8 @@
 		EA5E09A71A82F6B7002A1147 /* Course-499ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Course-499ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA5E09AC1A82F6B7002A1147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA5E09AD1A82F6B7002A1147 /* Course_499ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course_499ProjectTests.swift; sourceTree = "<group>"; };
+		EA726B801A95560C001CD639 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		EA726B811A9559AD001CD639 /* SwiftHTTP.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftHTTP.xcodeproj; path = "../../SwiftHTTP-master/SwiftHTTP.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA726B901A955A6D001CD639 /* SwiftHTTP.framework in Frameworks */,
+				EA726B911A955A6D001CD639 /* SwiftHTTP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +113,8 @@
 			children = (
 				EA5E09971A82F6B7002A1147 /* AppDelegate.swift */,
 				EA5E09991A82F6B7002A1147 /* ViewController.swift */,
+				EA726B801A95560C001CD639 /* MyPlayground.playground */,
+				EA726B811A9559AD001CD639 /* SwiftHTTP.xcodeproj */,
 				EA5E099B1A82F6B7002A1147 /* Main.storyboard */,
 				EA5E099E1A82F6B7002A1147 /* Images.xcassets */,
 				EA5E09A01A82F6B7002A1147 /* LaunchScreen.xib */,
@@ -110,6 +146,17 @@
 				EA5E09AC1A82F6B7002A1147 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA726B821A9559AD001CD639 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA726B891A9559AD001CD639 /* SwiftHTTP.framework */,
+				EA726B8B1A9559AD001CD639 /* SwiftHTTPTests.xctest */,
+				EA726B8D1A9559AD001CD639 /* SwiftHTTP.framework */,
+				EA726B8F1A9559AD001CD639 /* SwiftHTTPOSXTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +226,12 @@
 			mainGroup = EA5E09891A82F6B6002A1147;
 			productRefGroup = EA5E09931A82F6B7002A1147 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = EA726B821A9559AD001CD639 /* Products */;
+					ProjectRef = EA726B811A9559AD001CD639 /* SwiftHTTP.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				EA5E09911A82F6B7002A1147 /* Course-499Project */,
@@ -186,6 +239,37 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		EA726B891A9559AD001CD639 /* SwiftHTTP.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftHTTP.framework;
+			remoteRef = EA726B881A9559AD001CD639 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EA726B8B1A9559AD001CD639 /* SwiftHTTPTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwiftHTTPTests.xctest;
+			remoteRef = EA726B8A1A9559AD001CD639 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EA726B8D1A9559AD001CD639 /* SwiftHTTP.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftHTTP.framework;
+			remoteRef = EA726B8C1A9559AD001CD639 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EA726B8F1A9559AD001CD639 /* SwiftHTTPOSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwiftHTTPOSXTests.xctest;
+			remoteRef = EA726B8E1A9559AD001CD639 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		EA5E09901A82F6B7002A1147 /* Resources */ = {
@@ -405,6 +489,7 @@
 				EA5E09B31A82F6B7002A1147 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA5E09B41A82F6B7002A1147 /* Build configuration list for PBXNativeTarget "Course-499ProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +498,7 @@
 				EA5E09B61A82F6B7002A1147 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
